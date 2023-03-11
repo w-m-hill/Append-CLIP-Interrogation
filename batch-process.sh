@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the path to the directory containing the images
-dir_path="/home/xmbo/Projects/SampleFolder"
+dir_path="/path/to/folder"
 
 # Iterate over each file in the directory
 for file in "$dir_path"/*; do
