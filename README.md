@@ -19,4 +19,5 @@ Single image:
       --res RES    Cropped resolution
 
 Batch process:   
+`chmod +x batch-process.sh`
 `./batch-process.sh path/to/image-directory`
