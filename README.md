@@ -8,7 +8,15 @@ Download append-clip-interrogation.py and place it in a directory. Navigate to t
 
 ## Usage
 Single image:   
-`python append-clip-interrogation.py /path/to/image`   
+`python append-clip-interrogation.py --path /path/to/image`  
+
+    Appened CLIP interrogation to file
+
+    optional arguments:
+      -h, --help   show this help message and exit
+      --path PATH  Path to the image
+      --crop       Pass a cropped version of the image to interrogator if it is larger than --res
+      --res RES    Cropped resolution
 
 Batch process:   
 `./batch-process.sh path/to/image-directory`
