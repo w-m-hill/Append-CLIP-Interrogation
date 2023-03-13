@@ -15,8 +15,10 @@ Single image:
     optional arguments:
       -h, --help   show this help message and exit
       --path PATH  Path to the image
+      --replace    Replace the original name with caption instead of appending to it
       --crop       Pass a cropped version of the image to interrogator if it is larger than --res
       --res RES    Cropped resolution
+
 
 Batch process:   
 `chmod +x batch-process.sh`    
